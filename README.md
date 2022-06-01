@@ -39,10 +39,15 @@ Run this ASTR project from the command line with the command:
 
 
 If you encounter a problem while running ASTR and need to do some trouble shooting, either on your own or with any of your dedicated Applitools support resources (Beth, EJ, or any of the support team), you can add any of these flags to have ASTR print some more helpful information:
+
     “-narrate”          will print out the actions that are executed. 
+    
     “-applitoolsLogs”   will print out the logs for the Applitools commands that are executed. 
+    
     “-time”             will print out the time it took for each action to be performed. 
+    
 These can be combined or used individually. For example:
+
     java  -jar ApplitoolsSimpleTestRunner-3.58.1.jar job.xml -narrate -applitoolsLogs
 
 
