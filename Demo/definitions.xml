@@ -1,0 +1,5 @@
+<definitions>
+    <var key="User Name">#username</var>
+	<var key="Password">#password</var>
+	<var key="Login Button">#login > button > i</var>
+</definitions>

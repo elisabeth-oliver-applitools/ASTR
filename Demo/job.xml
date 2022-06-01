@@ -1,0 +1,40 @@
+<job ufgConcurrency="5">
+	<!-- Load the reusable runner and browser configurations and any reusable Action Blocks -->
+	<load>definitions.xml</load>
+	<load>configurations.xml</load>
+	<!-- Open a new Applitools batch -->
+	<batch name="Simple ASTR">
+		<!-- Add as many tests as desired -->
+		<test appname="ASTR Demo" testname="simple test">
+			<!-- select one of the runner/browser configurations we specified in configurations.xml -->
+			<configurations names="grid" />
+			<!-- List the desired actions the test should preform -->
+			<execute>
+				<action type="navigate">https://the-internet.herokuapp.com/</action>
+				<action type="check" target = "window" fullPage="true" matchlevel="layout"/>
+			</execute>
+		</test>
+		<test appname="ASTR Demo" testname="example crawl">
+			<configurations names="grid" />
+			<execute>
+				<!-- Crawl the list of provided site's pulled from sitemap.xml -->
+                <action type="crawl" from="sitemap.xml file" path="sitemap.xml" createSeparateTests="true" > 
+                    <foreach>
+                        <action type="navigate">exp[%url%]</action>
+						<action type="check" target = "window" fullPage="true" useDom="true"/>
+                    </foreach>
+                </action>  
+			</execute>
+		</test>
+		<test appname="ASTR Demo" testname="login logout">
+			<configurations names="grid" />
+			<execute>
+				<action type="navigate">https://the-internet.herokuapp.com/login</action>
+				<action type="sendkeys" by="css" selector="var[User Name]">tomsmith</action>
+				<action type="sendkeys" by="css" selector="var[Password]">SuperSecretPassword!</action>
+				<action type="click" by="css" selector="var[Login Button]"></action>
+				<action type="check" target = "window" fullPage="true" useDom="true"/>
+			</execute>
+		</test>
+    </batch>
+</job>
