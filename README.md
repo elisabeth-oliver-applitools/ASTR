@@ -1,3 +1,13 @@
+This repo contains 3 things, currently:
+1. This README - an abriviated guide on the basics of ASTR
+2. Demo - a simple ASTR project demonstration with three tests inside, demonstrating how:
+    - simple tests are written
+    - web crawling
+    - logging in with variables
+3. A Quick Setup Guide - how to go from a text editor and java to a ASTR webcrawler
+
+-----
+
 The following is a summary of key points in working with ASTR. 
 Please see the official documentation for further details : 
 https://docs.google.com/document/d/1Gradtg5pNCIGh-7bB7u_PImmGam7lof-duqbVxmDYdU/edit?usp=sharing
@@ -33,7 +43,7 @@ Among these recomended files are:
     - See "sitemap.xml" in this project for an example of a valid sitemap.xml file. 
 
 
-Run this ASTR project from the command line with the command: 
+Run ASTR projects from the command line with the command: 
 
     java  -jar ApplitoolsSimpleTestRunner-3.58.1.jar job.xml
 

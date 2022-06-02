@@ -1,3 +1,9 @@
+Working with ASTR is straight forward but can require learning some syntax. 
+To get around that and get simple projects off the ground quickly, ASTR has a quick start wizard which automatically sets up the boilerplate code for you for a couple common situations. 
+
+This tutorial explains how to go from nothing but a text editor and java, to a simple web crawler with ASTR.  
+
+
 Assumed Initial State:
 - you have a text editor (I use Visual Studio Code, but that isn't required)
 - you have Java on your machine (version 1.8 or higher)
@@ -30,7 +36,11 @@ Steps:
     
         - \<proxy username="JohnSmith" password="1234"\>https://proxy.url.com:8080\</proxy\>
     
-5. Go to the sitemap.xml file and add the pages you want to test
+5. Go to the sitemap.xml file and add the pages you want to test (see the included Demo project for an example of what that should look like)
     
 6. Run the command: 
     - java -jar ApplitoolsSimpleTestRunner-<version>.jar job.xml
+
+
+And that's it! 
+Like that, you should have a collection of tests uploaded to your Applitools dashboard. 
