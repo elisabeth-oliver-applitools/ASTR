@@ -5,12 +5,15 @@ This repo contains 3 things, currently:
     - web crawling
     - logging in with variables
 3. A Quick Setup Guide - how to go from a text editor and java to a ASTR webcrawler
+4. Applitools Simple Test Runner Documentation(6/10/22) - A copy of the official docs, uploaded on 6/10/22 from their official home on google docs.
 
 -----
 
 The following is a summary of key points in working with ASTR. 
 Please see the official documentation for further details : 
 https://docs.google.com/document/d/1Gradtg5pNCIGh-7bB7u_PImmGam7lof-duqbVxmDYdU/edit?usp=sharing
+
+Or if you are unable to access this link see the copy in this repository (Applitools Simple Test Runner Documentation). 
 
 ASTR Projects are made up of 3 core files:
 1. A "job" file (in this case job.xml) which contains the
