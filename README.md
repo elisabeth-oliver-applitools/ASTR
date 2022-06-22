@@ -1,4 +1,4 @@
-This repo contains 3 things, currently:
+This repo contains 4 things, currently:
 1. This README - an abriviated guide on the basics of ASTR
 2. Demo - a simple ASTR project demonstration with three tests inside, demonstrating how:
     - simple tests are written
