@@ -5,15 +5,13 @@ This repo contains 4 things, currently:
     - web crawling
     - logging in with variables
 3. A Quick Setup Guide - how to go from a text editor and java to a ASTR webcrawler
-4. Applitools Simple Test Runner Documentation(6/10/22) - A copy of the official docs, uploaded on 6/10/22 from their official home on google docs.
+4. Applitools Simple Test Runner Documentation(6/23/22) - A copy of the official docs, uploaded on 6/23/22 from their official home on google docs. Please see the official documentation at : https://docs.google.com/document/d/1Gradtg5pNCIGh-7bB7u_PImmGam7lof-duqbVxmDYdU/edit?usp=sharing
+for the most recent version of this document.
 
 -----
 
 The following is a summary of key points in working with ASTR. 
-Please see the official documentation for further details : 
-https://docs.google.com/document/d/1Gradtg5pNCIGh-7bB7u_PImmGam7lof-duqbVxmDYdU/edit?usp=sharing
-
-Or if you are unable to access this link see the copy in this repository (Applitools Simple Test Runner Documentation). 
+Please see the official documentation for further details.
 
 ASTR Projects are made up of 3 core files:
 1. A "job" file (in this case job.xml) which contains the
@@ -48,7 +46,7 @@ Among these recomended files are:
 
 Run ASTR projects from the command line with the command: 
 
-    java  -jar ApplitoolsSimpleTestRunner-3.58.1.jar job.xml
+    java  -jar ApplitoolsSimpleTestRunner-3.58.4.jar job.xml
 
 
 If you encounter a problem while running ASTR and need to do some trouble shooting, either on your own or with any of your dedicated Applitools support resources (Beth, EJ, or any of the support team), you can add any of these flags to have ASTR print some more helpful information:
@@ -61,7 +59,7 @@ If you encounter a problem while running ASTR and need to do some trouble shooti
     
 These can be combined or used individually. For example:
 
-    java  -jar ApplitoolsSimpleTestRunner-3.58.1.jar job.xml -narrate -applitoolsLogs
+    java  -jar ApplitoolsSimpleTestRunner-3.58.4.jar job.xml -narrate -applitoolsLogs
 
 
 

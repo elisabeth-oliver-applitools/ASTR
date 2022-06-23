@@ -1,4 +1,8 @@
 <definitions>
+<!-- Set variables to be used in the main job file. 
+	 Variables are refered to by their Key and contain some text
+	 as their value. In this example, these variables all hold 
+	 css selectors.  -->
     <var key="User Name">#username</var>
 	<var key="Password">#password</var>
 	<var key="Login Button">#login > button > i</var>
