@@ -24,7 +24,7 @@ Steps:
         
 3. Set up ASTR job files:
     - enter to the console: 
-    - java -jar ApplitoolsSimpleTestRunner-<version>.jar   
+    - java -jar ApplitoolsSimpleTestRunner-\<version\>.jar   
     - Select option 2 of the 5 to create a sitemap crawler
     - Enter the values for your project
     
@@ -39,7 +39,7 @@ Steps:
 5. Go to the sitemap.xml file and add the pages you want to test (see the included Demo project for an example of what that should look like)
     
 6. Run the command: 
-    - java -jar ApplitoolsSimpleTestRunner-<version>.jar job.xml
+    - java -jar ApplitoolsSimpleTestRunner-\<version\>.jar job.xml
 
 
 And that's it! 
