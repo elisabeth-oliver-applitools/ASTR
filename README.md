@@ -46,7 +46,7 @@ Among these recomended files are:
 
 Run ASTR projects from the command line with the command: 
 
-    java  -jar ApplitoolsSimpleTestRunner-3.58.4.jar job.xml
+    java  -jar ApplitoolsSimpleTestRunner-3.58.6.jar job.xml
 
 
 If you encounter a problem while running ASTR and need to do some trouble shooting, either on your own or with any of your dedicated Applitools support resources (Beth, EJ, or any of the support team), you can add any of these flags to have ASTR print some more helpful information:
@@ -59,7 +59,7 @@ If you encounter a problem while running ASTR and need to do some trouble shooti
     
 These can be combined or used individually. For example:
 
-    java  -jar ApplitoolsSimpleTestRunner-3.58.4.jar job.xml -narrate -applitoolsLogs
+    java  -jar ApplitoolsSimpleTestRunner-3.58.6.jar job.xml -narrate -applitoolsLogs
 
 
 
