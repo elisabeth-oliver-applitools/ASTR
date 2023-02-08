@@ -13,8 +13,7 @@ for the most recent version of this document.
 Please note the demos require you to download and add the ApplitoolsSimpleTestRunner.jar separately due to file size restrictions.
 
 You can download it from JFrog here: 
-
-    http://bit.ly/3jpWqC2
+http://bit.ly/3jpWqC2
 
 -----
 
