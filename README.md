@@ -1,12 +1,20 @@
-This repo contains 4 things, currently:
+This repo contains the following things:
 1. This README - an abriviated guide on the basics of ASTR
 2. Demo - a simple ASTR project demonstration with three tests inside, demonstrating how:
     - simple tests are written
     - web crawling
     - logging in with variables
-3. A Quick Setup Guide - how to go from a text editor and java to a ASTR webcrawler
-4. Applitools Simple Test Runner Documentation(6/23/22) - A copy of the official docs, uploaded on 6/23/22 from their official home on google docs. Please see the official documentation at : https://docs.google.com/document/d/1Gradtg5pNCIGh-7bB7u_PImmGam7lof-duqbVxmDYdU/edit?usp=sharing
+3. ComponentDemo - a more specific demo, demonstrating how you could use ASTR to test a component library. (Demonstrated on the Ant Design Library)
+4. A Quick Setup Guide - how to go from a text editor and java to a ASTR webcrawler
+5. Applitools Simple Test Runner Documentation(2/8/23) - A copy of the official docs, uploaded on 2/8/23 from their official home on google docs. Please see the official documentation at : https://docs.google.com/document/d/1Gradtg5pNCIGh-7bB7u_PImmGam7lof-duqbVxmDYdU/edit?usp=sharing
 for the most recent version of this document.
+
+---
+Please note the demos require you to download and add the ApplitoolsSimpleTestRunner.jar separately due to file size restrictions.
+
+You can download it from JFrog here: 
+
+    http://bit.ly/3jpWqC2
 
 -----
 
@@ -46,7 +54,7 @@ Among these recomended files are:
 
 Run ASTR projects from the command line with the command: 
 
-    java  -jar ApplitoolsSimpleTestRunner-3.58.6.jar job.xml
+    java  -jar ApplitoolsSimpleTestRunner.jar job.xml
 
 
 If you encounter a problem while running ASTR and need to do some trouble shooting, either on your own or with any of your dedicated Applitools support resources (Beth, EJ, or any of the support team), you can add any of these flags to have ASTR print some more helpful information:
@@ -59,7 +67,7 @@ If you encounter a problem while running ASTR and need to do some trouble shooti
     
 These can be combined or used individually. For example:
 
-    java  -jar ApplitoolsSimpleTestRunner-3.58.6.jar job.xml -narrate -applitoolsLogs
+    java  -jar ApplitoolsSimpleTestRunner.jar job.xml -narrate -applitoolsLogs
 
 
 

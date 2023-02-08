@@ -1,0 +1,13 @@
+<job concurrent_runs="10" ufgConcurrency="10">
+	<!--https://ant.design/components/overview-->
+	<load>configurations.xml</load>
+	<batch name="ComponentLibraryTesting">
+		<test appname="ant-design" testname="component">
+			<configurations names="chromeGrid" />
+			<SmartSplit to="sitemap url groups" max="10" path="sitemap.xml" />
+			<execute>
+				<action type="crawl" from="sitemap.xml file" createSeparateTests="true">sitemap.xml</action>
+			</execute>
+		</test>
+	</batch>
+</job>

@@ -1,4 +1,4 @@
-<job ufgConcurrency="5">
+<job concurrent_runs="10" ufgConcurrency="10">
 	<!-- Load the reusable runner and browser configurations and any reusable Action Blocks -->
 	<load>definitions.xml</load>
 	<load>configurations.xml</load>
@@ -11,7 +11,7 @@
 			<configurations names="grid" />
 			<!-- List the desired actions the test should preform -->
 			<execute>
-				<action type="navigate">https://the-internet.herokuapp.com/</action>
+				<action type="navigate">https://the-internet.herokuapp.com</action>
 				<action type="check" target = "window" fullPage="true" matchlevel="layout"/>
 			</execute>
 		</test>
@@ -19,12 +19,13 @@
 			<configurations names="grid" />
 			<execute>
 				<!-- Crawl the list of provided site's pulled from sitemap.xml -->
-                <action type="crawl" from="sitemap.xml file" path="sitemap.xml" createSeparateTests="true" > 
-                    <foreach>
-                        <action type="navigate">exp[%url%]</action>
+				<action type="crawl" from="sitemap.xml file" path="sitemap.xml" createSeparateTests="true" > 
+					<foreach>
+						<action type="navigate">exp[%url%]</action>
+						<action type="forcepageload" suspension_time="3000"/>
 						<action type="check" target = "window" fullPage="true" useDom="true"/>
-                    </foreach>
-                </action>  
+					</foreach>
+				</action>  
 			</execute>
 		</test>
 		<test appname="ASTR Demo" testname="login logout">

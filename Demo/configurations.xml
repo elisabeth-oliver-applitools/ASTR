@@ -12,8 +12,9 @@
 
 	<configuration	name="grid">
 		<applitools>applitoolsConf.xml</applitools>
-		<driver useChromeOptions="headless">chrome</driver>
-		<viewport width = "1500" height = "800" ></viewport>
+		<!-- <driver useChromeOptions="headless">chrome</driver> -->
+		<driver>chrome</driver>
+		<viewport width = "800" height = "600" ></viewport>
 		<visualGrid>
 			
 			<browser type="CHROME" width="1500" height="1000" />

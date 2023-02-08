@@ -1,0 +1,16 @@
+<settings>
+	<!-- Either set your API key in your system's environment variable under the name
+		 APPLITOOLS_API_KEY or replace "Env[APPLITOOLS_API_KEY]" below with your API key -->
+	<apikey>Env[APPLITOOLS_API_KEY]</apikey>
+
+	<!-- If your environment has a proxy this is the place to set it.
+		 If your proxy has a user name and password, use the second format, if it does not
+		 use the first. Simply uncomment the appropriate line and paste in your specific 
+		 proxy information -->
+	<!-- <Proxy>https://proxy.url.com:8080</Proxy> --> 
+	<!-- <proxy username="JohnSmith" password="1234">https://proxy.url.com:8080</proxy> -->
+
+	<!-- If you have a private cloud server with Applitools uncomment the following line
+		 and replace the server url with a link to your server -->
+	<!-- <Server>https://eyes.applitools.com</Server> -->
+</settings>
