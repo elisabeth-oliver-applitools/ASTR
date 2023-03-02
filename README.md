@@ -4,7 +4,10 @@ This repo contains the following things:
     - simple tests are written
     - web crawling
     - logging in with variables
-3. ComponentDemo - a more specific demo, demonstrating how you could use ASTR to test a component library. (Demonstrated on the Ant Design Library)
+3. A small collection of more specific Demos, demonstrating a few common use cases. 
+    - ComponentDemo: demonstrating how you could use ASTR to test a component library. (Demonstrated on the Ant Design Library)
+    - Crawl Demo: demonstrating how you can easily use an entire sitemap to crawl every page of your website for regression testing. (Demonstrated on the Applitools Tutorials pages)
+    - CrossEnvironmentDemo: demonstrating a method for testing differences between development environments or platforms. This is a toy example. This technique should be combined with web crawling in most cases. (Demonstrated with two versions of one of the Applitools Demo pages)
 4. A Quick Setup Guide - how to go from a text editor and java to a ASTR webcrawler
 5. Applitools Simple Test Runner Documentation(2/8/23) - A copy of the official docs, uploaded on 2/8/23 from their official home on google docs. Please see the official documentation at : https://docs.google.com/document/d/1Gradtg5pNCIGh-7bB7u_PImmGam7lof-duqbVxmDYdU/edit?usp=sharing
 for the most recent version of this document.

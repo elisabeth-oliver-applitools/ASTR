@@ -1,0 +1,20 @@
+<job>
+	<load>configurations.xml</load>
+	<load>definitions.xml</load>
+	<batch name="Cross Environment">
+		<test appname="demo" testname="cross">
+			<configurations names="grid" />
+			<execute>
+			
+				<action type="navigate">var[dev]</action>
+				<action type="check" target = "window" testName="Cross Environment"
+					createSeparateTest="true" overrideBaseline = "true" deleteOn="finish"/>
+
+
+				<action type="navigate">var[prod]</action>
+				<action type="check" target = "window" testName="Cross Environment"
+					createSeparateTest="true"/>
+			</execute>
+		</test>
+	</batch>
+</job>

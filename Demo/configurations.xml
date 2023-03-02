@@ -21,7 +21,6 @@
 			<browser type="CHROME" width="1300" height="800" />
  			<browser type="firefox" width="1300" height="800" />
 			<browser type="firefox" width="1100" height="600" />
-			<browser type="IE_11" width="1300" height="600" />
 
 			<chromeDeviceEmulation name="iPhone_X" /> 
 			<chromeDeviceEmulation name="iPhone_X"  orientation="LANDSCAPE"/> 
